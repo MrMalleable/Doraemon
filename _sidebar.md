@@ -1,2 +1,2 @@
 - [日志](README.md '第一篇文档')
-- [关于安装](index/install.md)
+- [关于安装与使用](index/install.md)
