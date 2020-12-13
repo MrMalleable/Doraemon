@@ -8,7 +8,7 @@
 
 ## 关于使用侧边栏目录
 左边目录结构示例
-![侧边栏目录结构](https://upload-images.jianshu.io/upload_images/3971414-5ba4ad255f5d878f.png)
+![侧边栏目录结构](https://github.com/MrMalleable/Doraemon/blob/main/images/category.png)
 
 只需要在_sidebar.md文件里面照着这样的格式写就行了
 
