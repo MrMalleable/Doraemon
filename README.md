@@ -11,6 +11,9 @@ Everyone needs a place for Recording!
 4. 新增字数统计的功能
 5. 新增代码高亮
 
+2020-12-13
+new Member: Hy
+
 ## TODO
 1. 解决图片展示的问题 本地生成base64还是使用图床？
 2. 侧边栏层级布置
