@@ -28,6 +28,6 @@ images文件夹用来存放md文件里面的图片 by Lcr
 2. [x] 侧边栏层级布置：请查看关于安装与使用的示例图片
 3. [x] 总结的内容框架脑图：初步整理了，后续可以继续修改更新如下
 
-![整理的框架思维脑图](https://github.com/MrMalleable/Doraemon/blob/main/images/%E6%80%BB%E7%BB%93%E6%A1%86%E6%9E%B6.png)
+![整理的框架思维脑图](images/总结框架.png)
 
 4. [ ] @Hy 加油总结 冲冲冲
