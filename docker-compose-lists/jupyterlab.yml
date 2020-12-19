@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+  myjupyterlab:
+    image: docker.io/mikebirdgeneau/jupyterlab
+    container_name: jupyter
+    restart: always
+    ports:
+      - 18888:8888

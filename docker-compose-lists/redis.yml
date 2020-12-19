@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  redis:
+    image: redis:4.0.13 
+    container_name: redis
+    restart: always
+    command: --appendonly yes
+    ports:
+      - 6379:6379
+    volumes:
+      - ./data:/data
+    command: '--requirepass "xxxx"'

@@ -1,0 +1,43 @@
+version: '2.3'
+services:
+  mqtt:
+    image: eclipse-mosquitto:1.5
+    restart: always
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./data:/mosquitto/data
+      - ./log:/mosquitto/log
+      - ./config:/mosquitto/config
+
+config目录下面
+
+mosquitto.conf:
+
+#pid_file /var/run/mosquitto.pid
+
+persistence true
+persistence_location /mosquitto/data/
+
+#user mosquitto
+#user root
+allow_anonymous false
+password_file /mosquitto/config/password.conf
+
+# Port to use for the default listener.
+port 1883
+
+
+log_dest file /mosquitto/log/mosquitto.log
+log_dest stdout
+
+# websockets
+listener 9001
+protocol websockets
+
+#include_dir /mosquitto/config/conf.d
+
+password.conf:
+
+ilovewl:$6$A/ihh5puzuyJhAuw$/ByaEGZZM0ZkvwXDSgB1mozJboLLn/TSEFiWFHhjqcrtNUedhQP/Nym2duuFS1E/g/cYRyWnYX2lYvfZeOHb/g==

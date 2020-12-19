@@ -1,0 +1,19 @@
+version: '2.3'
+services:
+  wencheng_api:
+    image: openjdk:11-slim
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./data:/root/
+    environment:
+      - TZ=Asia/Shanghai
+    working_dir: /root/
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "20m"
+        max-file: "10"
+    command: java -jar /root/wencheng.jar
