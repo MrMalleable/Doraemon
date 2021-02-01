@@ -31,6 +31,11 @@ images文件夹用来存放md文件里面的图片 by Lcr
 
 线程相关API By Lcr
 
+2021-02-01
+
+Leetcode第226场周赛 By Lcr
+这么久没更新了，感慨良多 By Lcr
+
 ## TODO
 > 怕忘记的内容可以写在TODO这里，如果完成了就在前面加上[x]，否则加上[ ]
 
