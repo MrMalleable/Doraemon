@@ -1,8 +1,8 @@
-## 第226场周赛
+第226场周赛
 
 这周题感觉不是很难，虽然我只做出来了第一题（因为我是菜鸡），但是思路上还是比较好理解的。下面就来具体看下吧。
 
-### [1742. 盒子中小球的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balls-in-a-box/)
+[1742. 盒子中小球的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balls-in-a-box/)
 
 思路：使用一个Map来保存每个和出现的次数，每次都将最新的max更新，最后返回即可。
 
@@ -30,7 +30,7 @@ class Solution {
 }
 ```
 
-### [1743. 从相邻元素对还原数组](https://leetcode-cn.com/problems/restore-the-array-from-adjacent-pairs/)
+[1743. 从相邻元素对还原数组](https://leetcode-cn.com/problems/restore-the-array-from-adjacent-pairs/)
 
 思路：Map<Integer,List<Integer>> key：存放每个数 List<Integer>存放key对应的邻居
 
@@ -112,7 +112,7 @@ class Solution {
 }
 ```
 
-### [1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
+[1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
 
 思路：
 这道题看题解是真简单，但是自己做的时候怎么就想不到呢我去
@@ -178,7 +178,7 @@ class Solution {
 }
 ```
 
-### [1745. 回文串分割 IV](https://leetcode-cn.com/problems/palindrome-partitioning-iv/)
+[1745. 回文串分割 IV](https://leetcode-cn.com/problems/palindrome-partitioning-iv/)
 
 思路：
 
