@@ -37,12 +37,22 @@ images 文件夹用来存放 md 文件里面的图片 by Lcr
 2021-02-01
 
 Leetcode 第 226 场周赛 By Lcr
+
 这么久没更新了，感慨良多 By Lcr
 
 2021-03-17
 
 Leetcode 第 83 场周赛 By Lcr
+
 加油，努力就会有回报的 By Lcr
+
+grafana 初始化用户名和密码 admin/admin
+
+nacos 初始化用户名和密码 nacos/nacos
+
+2021-07-24
+
+mysql 排序函数
 
 ## TODO
 
